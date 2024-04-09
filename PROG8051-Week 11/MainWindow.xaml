@@ -1,0 +1,39 @@
+﻿<Window x:Class="PROG8051_Week_11.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PROG8051_Week_11"
+        mc:Ignorable="d"
+        Title="CoursePredictor" Height="450" Width="800">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Home" Margin="-2,-2,-7,0">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="589*"/>
+                        <ColumnDefinition Width="205*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Content="Course Predictor" HorizontalAlignment="Left" Margin="198,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.804,-3.871" Width="273" FontSize="20" HorizontalContentAlignment="Center" Background="#FF04DBF1" FontWeight="Bold"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Course Predictor" Margin="2,-2,-2,0">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem Header="Help" Margin="-2,-2,-8,0">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem Header="FAQ" Margin="5,-2,-23,0">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem Header="My Profile" Margin="20,-2,-21,0">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem Header="LogOut" Margin="20,-2,-43,0">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+        </TabControl>
+
+
+    </Grid>
+</Window>
